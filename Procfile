@@ -1,1 +1,1 @@
-worker: sh target/bin/workerBot
+heroku ps:scale target/classes/:target/dependency/
