@@ -113,7 +113,7 @@
 					<includes>
 						<include>${project.build.directory}/${project.build.finalName}.jar</include>
 					</includes>
-					<jdkVersion>${java.version}</jdkVersion>
+					<jdkVersion>11</jdkVersion>
 					<processTypes>
 						<web>java $JAVA_OPTS -jar ${project.build.directory}/${project.build.finalName}.jar</web>
 					</processTypes>
