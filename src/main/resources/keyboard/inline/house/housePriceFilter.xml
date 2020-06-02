@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<inline-keyboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="../../../xsd/inlineKeyboard.xsd">
+
+    <inline-keyrow>
+        <inline-button callback="MinPrice">Минимальная цена</inline-button>
+        <inline-button callback="MaxPrice">Максимальная цена</inline-button>
+    </inline-keyrow>
+
+</inline-keyboard>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<static-keyboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="../../xsd/staticKeyboard.xsd">
+
+    <static-keyrow>
+        <static-button>Информация о Славске</static-button>
+        <static-button>Мой профиль</static-button>
+    </static-keyrow>
+    <static-keyrow>
+        <static-button>Выбрать дом</static-button>
+    </static-keyrow>
+
+
+</static-keyboard>

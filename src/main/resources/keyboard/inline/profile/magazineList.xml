@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<inline-keyboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="../../../xsd/inlineKeyboard.xsd"
+                 controller="InlineListRepository">
+
+    <inline-db-keyrow entity="House" repository="HouseRepository" repoMethod="getHousesListByTelegramId"
+                      itemResponseMethod="magazineHouse" maxItemsOnPage="3" methodForName="getName" methodForCallback="getId"/>
+
+    <inline-keyrow>
+        <inline-button callback="Previous">Назад</inline-button>
+        <inline-button callback="none" pageable="true">Страница</inline-button>
+        <inline-button callback="Next">Вперед</inline-button>
+    </inline-keyrow>
+
+</inline-keyboard>

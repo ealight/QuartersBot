@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<static-keyboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="../../../xsd/staticKeyboard.xsd">
+
+    <static-keyrow>
+        <static-button>Посмотреть все дома</static-button>
+        <static-button>К фильтрам ➡</static-button>
+    </static-keyrow>
+    <static-keyrow>
+        <static-button>⬅ На главную</static-button>
+    </static-keyrow>
+
+</static-keyboard>

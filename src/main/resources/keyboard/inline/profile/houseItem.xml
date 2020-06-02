@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<inline-keyboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="../../../xsd/inlineKeyboard.xsd"
+                 controller="House">
+
+    <inline-keyrow>
+        <inline-button callback="MorePhoto">Больше фото</inline-button>
+        <inline-button callback="Detail">Детальнее</inline-button>
+        <inline-button callback="OwnerRequirements">Требования владельца</inline-button>
+        <inline-button callback="AdditionalService">Дополнительные услуги</inline-button>
+    </inline-keyrow>
+
+    <inline-keyrow>
+        <inline-button callback="Delete">Удалить из журнала</inline-button>
+    </inline-keyrow>
+
+</inline-keyboard>

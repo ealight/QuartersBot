@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<static-keyboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="../../xsd/staticKeyboard.xsd">
+
+    <static-keyrow>
+        <static-button>Мои брони</static-button>
+        <static-button>Мой журнал</static-button>
+    </static-keyrow>
+
+    <static-keyrow>
+        <static-button>⬅ На главную</static-button>
+        <static-button>Уведомления</static-button>
+    </static-keyrow>
+
+</static-keyboard>
